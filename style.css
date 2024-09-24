@@ -158,7 +158,7 @@ aside .sidebar {
   flex-direction: column;
   height: 86vh;
   position: relative;
-  top: 2rem;
+  top: 3rem;
 }
 
 aside h3 {
@@ -183,7 +183,7 @@ aside .sidebar a span {
 
 aside .sidebar a:last-child {
   position: absolute;
-  bottom: 1rem;
+  bottom: 2rem;
   width: 100%;
 }
 
@@ -607,6 +607,11 @@ main .recent-orders a {
   main {
     padding: 0 1rem;
     margin-top: 8rem;
+  }
+
+  main .insights {
+    grid-template-columns: 1fr;
+    gap: 0;
   }
 
   main .recent-orders {
